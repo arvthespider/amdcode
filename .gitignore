@@ -1,0 +1,68 @@
+# Dependency directories
+node_modules/
+/jspm_packages
+
+# Next.js build output
+.next/
+out/
+
+# Production build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrument/code coverage yields
+coverage
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional eslint / stylelint cache
+.eslintcache
+.stylelintcache
+
+# Local env files (should NOT be committed to git)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.production
+.env.test
+
+# Vercel / Next.js telemetry
+.vercel
+.next-telemetry-dir
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvsca*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
