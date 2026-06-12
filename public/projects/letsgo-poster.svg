@@ -1,0 +1,30 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="860" rx="42" fill="#F8FAFC"/>
+  <rect x="54" y="54" width="1092" height="752" rx="32" fill="url(#paint0_linear)"/>
+  <circle cx="920" cy="180" r="96" fill="#BFDBFE"/>
+  <circle cx="980" cy="690" r="130" fill="#E2E8F0"/>
+  <rect x="120" y="122" width="296" height="50" rx="25" fill="#111827"/>
+  <text x="148" y="155" fill="white" font-size="28" font-family="Arial, sans-serif">Featured Campaign Poster</text>
+  <text x="120" y="254" fill="#111827" font-size="92" font-weight="bold" font-family="Arial, sans-serif">LETS GO</text>
+  <text x="120" y="328" fill="#475569" font-size="48" font-family="Arial, sans-serif">Japan Cultural Visit 2018</text>
+  <rect x="120" y="382" width="420" height="182" rx="28" fill="white" fill-opacity="0.8"/>
+  <text x="155" y="442" fill="#334155" font-size="24" font-family="Arial, sans-serif">Visuals crafted to present the event</text>
+  <text x="155" y="478" fill="#334155" font-size="24" font-family="Arial, sans-serif">as informative, vibrant, and sponsor-ready.</text>
+  <rect x="154" y="512" width="178" height="44" rx="22" fill="#111827"/>
+  <text x="190" y="540" fill="white" font-size="22" font-family="Arial, sans-serif">Poster Design</text>
+  <g opacity="0.9">
+    <path d="M716 252C781.17 180.55 851.193 144.824 926.067 144.824C1000.94 144.824 1073.27 180.55 1143.05 252" stroke="#0F172A" stroke-width="14" stroke-linecap="round"/>
+    <path d="M704 324C791.083 272.549 866.75 246.824 931 246.824C995.25 246.824 1064.25 272.549 1138 324" stroke="#475569" stroke-width="10" stroke-linecap="round"/>
+    <rect x="726" y="392" width="348" height="258" rx="32" fill="white" fill-opacity="0.82"/>
+    <text x="760" y="460" fill="#0F172A" font-size="42" font-weight="bold" font-family="Arial, sans-serif">4-5 sponsors</text>
+    <text x="760" y="520" fill="#475569" font-size="28" font-family="Arial, sans-serif">Generated more than</text>
+    <text x="760" y="570" fill="#475569" font-size="28" font-family="Arial, sans-serif">IDR 100 million</text>
+    <text x="760" y="620" fill="#475569" font-size="28" font-family="Arial, sans-serif">for the program.</text>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="88" y1="88" x2="1132" y2="766" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+  </defs>
+</svg>

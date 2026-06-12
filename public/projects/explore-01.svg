@@ -1,0 +1,7 @@
+<svg width="720" height="840" viewBox="0 0 720 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="840" rx="34" fill="#F8FAFC"/>
+  <rect x="60" y="60" width="600" height="720" rx="28" fill="#FFFFFF"/>
+  <circle cx="498" cy="212" r="102" fill="#DBEAFE"/>
+  <text x="110" y="214" fill="#0F172A" font-size="52" font-weight="bold" font-family="Arial, sans-serif">Editorial</text>
+  <text x="110" y="274" fill="#475569" font-size="28" font-family="Arial, sans-serif">Clean composition study</text>
+</svg>

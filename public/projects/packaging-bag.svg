@@ -1,0 +1,7 @@
+<svg width="640" height="520" viewBox="0 0 640 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="520" rx="32" fill="#F8FAFC"/>
+  <path d="M226 164C226 111.533 268.533 69 321 69V69C373.467 69 416 111.533 416 164V183H226V164Z" fill="#CBD5E1"/>
+  <rect x="182" y="162" width="276" height="250" rx="26" fill="#0F172A"/>
+  <text x="248" y="286" fill="white" font-size="38" font-weight="bold" font-family="Arial, sans-serif">Brand Bag</text>
+  <text x="248" y="334" fill="#CBD5E1" font-size="22" font-family="Arial, sans-serif">Packaging mockup</text>
+</svg>

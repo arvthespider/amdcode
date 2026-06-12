@@ -1,0 +1,8 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" rx="36" fill="#0F172A"/>
+  <rect x="54" y="54" width="392" height="392" rx="28" fill="#111827"/>
+  <text x="104" y="176" fill="white" font-size="42" font-weight="bold" font-family="Arial, sans-serif">Campaign</text>
+  <text x="104" y="226" fill="#CBD5E1" font-size="26" font-family="Arial, sans-serif">Clear message hierarchy</text>
+  <rect x="104" y="286" width="292" height="72" rx="22" fill="#E2E8F0"/>
+  <rect x="104" y="378" width="174" height="18" rx="9" fill="#475569"/>
+</svg>

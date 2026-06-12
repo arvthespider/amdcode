@@ -1,0 +1,18 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="860" rx="42" fill="#020617"/>
+  <rect x="82" y="82" width="1036" height="696" rx="32" fill="url(#paint0_linear)"/>
+  <circle cx="596" cy="430" r="84" fill="white" fill-opacity="0.22"/>
+  <circle cx="596" cy="430" r="58" fill="white"/>
+  <path d="M572 390L648 430L572 470V390Z" fill="#0F172A"/>
+  <text x="120" y="168" fill="#E2E8F0" font-size="30" font-family="Arial, sans-serif">Cinematic Preview</text>
+  <text x="120" y="246" fill="white" font-size="76" font-weight="bold" font-family="Arial, sans-serif">Event Video Teaser</text>
+  <text x="120" y="308" fill="#CBD5E1" font-size="34" font-family="Arial, sans-serif">Motion-led storytelling for audience excitement.</text>
+  <rect x="120" y="644" width="322" height="82" rx="24" fill="white" fill-opacity="0.14"/>
+  <text x="156" y="693" fill="white" font-size="28" font-family="Arial, sans-serif">Video Preview Asset</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="82" y1="82" x2="1118" y2="778" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+</svg>

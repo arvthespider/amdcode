@@ -1,0 +1,7 @@
+<svg width="640" height="520" viewBox="0 0 640 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="520" rx="32" fill="#F8FAFC"/>
+  <rect x="132" y="132" width="220" height="220" rx="20" fill="#0F172A"/>
+  <rect x="352" y="168" width="148" height="184" rx="20" fill="#CBD5E1"/>
+  <text x="172" y="254" fill="white" font-size="42" font-weight="bold" font-family="Arial, sans-serif">T</text>
+  <text x="172" y="300" fill="#CBD5E1" font-size="22" font-family="Arial, sans-serif">Tea Box</text>
+</svg>
