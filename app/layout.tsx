@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -25,6 +26,11 @@ export const metadata: Metadata = {
     "Azizah Mutiara Dewi",
     "Portfolio"
   ],
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     title: "Azizah Mutiara Dewi | Graphic Designer Portfolio",
     description: "Graphic designer specializing in social media design, branding, and visual content.",
@@ -52,6 +58,7 @@ export default function RootLayout({
         className={`${poppins.variable} ${montserrat.variable} font-sans antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
