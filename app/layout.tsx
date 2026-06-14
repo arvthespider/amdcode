@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     "Portfolio"
   ],
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logo-square.png",
+    shortcut: "/logo-square.png",
+    apple: "/logo-square.png",
   },
   openGraph: {
     title: "Azizah Mutiara Dewi | Graphic Designer Portfolio",
