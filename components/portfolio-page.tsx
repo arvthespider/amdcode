@@ -435,59 +435,64 @@ export function PortfolioPage() {
           className="absolute right-[8%] top-52 -z-10 h-56 w-56 rounded-full bg-slate-200/45 blur-3xl dark:bg-slate-500/10"
         />
 
-        <div className="mx-auto grid max-w-7xl items-center gap-10 xl:grid-cols-[1.12fr_0.88fr]">
+        <div className="mx-auto max-w-7xl">
           <motion.div
             initial={{ opacity: 0, y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            className="space-y-7 xl:pr-6"
+            className="space-y-7"
           >
-            <div className="space-y-2">
-              <p className="hero-outline opacity-60 font-display text-[2.2rem] font-semibold uppercase leading-none tracking-[-0.08em] md:text-[4.6rem] xl:text-[5rem]">
+            {/* Outline / watermark text */}
+            <div className="space-y-1">
+              <p className="hero-outline opacity-60 font-display font-semibold uppercase leading-none tracking-[-0.08em]" style={{ fontSize: "clamp(1.8rem, 6vw, 5rem)" }}>
                 Tiara
               </p>
-              <p className="hero-outline -mt-1 opacity-45 font-display text-[1.25rem] font-semibold uppercase leading-none tracking-[-0.08em] md:text-[3rem] xl:text-[3.2rem]">
+              <p className="hero-outline -mt-1 opacity-45 font-display font-semibold uppercase leading-none tracking-[-0.08em]" style={{ fontSize: "clamp(1.1rem, 3.5vw, 3.2rem)" }}>
                 Visual Portfolio
               </p>
             </div>
+
+            {/* Availability badge */}
             <div className="glass-card inline-flex max-w-full items-center gap-2 rounded-full px-4 py-2 text-xs text-slate-600 dark:text-slate-300 md:text-sm">
               <Sparkles size={15} />
               Available for Graphic Design, Social Media Design, and Visual Content roles
             </div>
-            <div className="space-y-6">
-              <div className="space-y-5">
-                <p className="section-kicker">Portfolio 2026</p>
-                <h1 className="max-w-4xl font-display text-[2.7rem] font-semibold leading-[0.96] tracking-[-0.055em] sm:text-[3.35rem] md:text-[4.9rem] xl:text-[5.35rem]">
-                  Azizah Mutiara Dewi
-                </h1>
-                <p className="max-w-[39rem] text-[0.98rem] leading-7 text-slate-600 dark:text-slate-300 md:text-[1.12rem] md:leading-8">
-                  Graphic Designer specializing in impactful social media, visual branding, and
-                  polished campaign communication that feels clear, modern, and ready to deliver.
-                </p>
-              </div>
 
-              <div className="glass-card rounded-[1.7rem] p-4 md:rounded-[1.9rem] md:p-6">
-                <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
-                  <div className="max-w-lg">
-                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">
-                      Creative Value
-                    </p>
-                    <p className="mt-3 font-display text-[1.35rem] font-semibold leading-tight sm:text-[1.55rem] md:text-[1.9rem]">
-                      Competent, visually sharp, and ready to contribute from day one.
-                    </p>
+            {/* Main heading block */}
+            <div className="space-y-5">
+              <p className="section-kicker">Portfolio 2026</p>
+              <h1 className="font-display font-semibold leading-[0.96] tracking-[-0.055em]" style={{ fontSize: "clamp(2rem, 7vw, 5.35rem)" }}>
+                Azizah Mutiara Dewi
+              </h1>
+              <p className="max-w-2xl text-[0.98rem] leading-7 text-slate-600 dark:text-slate-300 md:text-[1.1rem] md:leading-8">
+                Graphic Designer specializing in impactful social media, visual branding, and
+                polished campaign communication that feels clear, modern, and ready to deliver.
+              </p>
+            </div>
+
+            {/* Creative value card */}
+            <div className="glass-card rounded-[1.7rem] p-4 md:rounded-[1.9rem] md:p-6">
+              <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+                <div className="max-w-lg">
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">
+                    Creative Value
+                  </p>
+                  <p className="mt-3 font-display text-xl font-semibold leading-tight md:text-2xl">
+                    Competent, visually sharp, and ready to contribute from day one.
+                  </p>
+                </div>
+                <div className="flex items-start gap-3 sm:max-w-[18rem]">
+                  <div className="mt-1 shrink-0 rounded-full bg-slate-950 p-2 text-white dark:bg-white dark:text-slate-950">
+                    <WandSparkles size={16} />
                   </div>
-                  <div className="flex items-start gap-3 md:max-w-[18rem]">
-                    <div className="mt-1 rounded-full bg-slate-950 p-2 text-white dark:bg-white dark:text-slate-950">
-                      <WandSparkles size={16} />
-                    </div>
-                    <p className="text-[0.95rem] leading-6 text-slate-600 dark:text-slate-300 md:text-[0.98rem] md:leading-7">
-                      Strong on social media layout, campaign assets, and collaborative visual execution.
-                    </p>
-                  </div>
+                  <p className="text-sm leading-6 text-slate-600 dark:text-slate-300">
+                    Strong on social media layout, campaign assets, and collaborative visual execution.
+                  </p>
                 </div>
               </div>
             </div>
 
+            {/* CTA buttons */}
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
                 href="#projects"
@@ -506,7 +511,8 @@ export function PortfolioPage() {
               </a>
             </div>
 
-            <div className="grid gap-4 md:grid-cols-3">
+            {/* Stats grid */}
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
               {[
                 { value: "6+ Years", label: "Design experience since high school" },
                 { value: "100M+", label: "Funds generated by featured campaign" },
@@ -519,7 +525,7 @@ export function PortfolioPage() {
                   transition={{ duration: 0.55, delay: 0.22 + index * 0.08, ease: "easeOut" }}
                 >
                   <SpotlightCard className="glass-card rounded-[1.6rem] p-4 shadow-soft transition duration-300 hover:-translate-y-1 md:rounded-[1.75rem] md:p-5">
-                    <p className="font-display text-[1.75rem] font-semibold">{item.value}</p>
+                    <p className="font-display text-2xl font-semibold">{item.value}</p>
                     <p className="mt-2 text-sm leading-6 text-slate-500 dark:text-slate-400">
                       {item.label}
                     </p>
@@ -527,63 +533,14 @@ export function PortfolioPage() {
                 </motion.div>
               ))}
             </div>
-
-            <Reveal delay={0.22} y={16} className="hidden md:block">
+            {/* Service ticker */}
+            <Reveal delay={0.22} y={16}>
               <ServiceTicker />
             </Reveal>
           </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 28 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.12, ease: "easeOut" }}
-            className="relative mx-auto w-full max-w-[28rem] xl:pl-4"
-          >
-            <FloatingBadge
-              title="Fast revisions, calm execution"
-              subtitle="Workflow"
-              className="-left-6 top-20 max-w-[198px]"
-            />
-            <FloatingBadge
-              title="Clean, credible, and deadline-aware"
-              subtitle="Positioning"
-              className="right-4 top-8 max-w-[210px]"
-            />
-            <div className="relative bg-transparent p-0">
-              <div className="relative grid gap-5">
-                <div className="grid gap-4 md:grid-cols-[1.15fr_0.85fr]">
-                  <SpotlightCard className="glass-card rounded-[1.6rem] p-4 md:rounded-[1.75rem] md:p-5">
-                    <div className="flex items-start justify-between gap-4">
-                      <div>
-                        <p className="text-sm text-slate-500 dark:text-slate-400">Focus</p>
-                        <p className="mt-2 font-display text-xl font-semibold">
-                          Social media visual systems that look polished and conversion-aware.
-                        </p>
-                      </div>
-                      <div className="rounded-full bg-slate-950 p-2 text-white dark:bg-white dark:text-slate-950">
-                        <Instagram size={16} />
-                      </div>
-                    </div>
-                  </SpotlightCard>
-                  <SpotlightCard className="glass-card rounded-[1.6rem] p-4 md:rounded-[1.75rem] md:p-5">
-                    <p className="text-sm text-slate-500 dark:text-slate-400">Signature Traits</p>
-                    <div className="mt-3 flex flex-wrap gap-2">
-                      {["Fast learner", "Responsible", "Deadline-oriented"].map((trait) => (
-                        <span
-                          key={trait}
-                          className="rounded-full bg-slate-100 px-3 py-2 text-xs font-medium text-slate-700 dark:bg-slate-800 dark:text-slate-200"
-                        >
-                          {trait}
-                        </span>
-                      ))}
-                    </div>
-                  </SpotlightCard>
-                </div>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </section>
+
 
       <section id="about" className="section-lift relative px-4 py-16 md:px-8 md:py-20">
         <div className="absolute inset-x-0 top-0 -z-10 mx-auto h-32 max-w-6xl rounded-full bg-white/55 blur-3xl dark:bg-slate-900/30" />
