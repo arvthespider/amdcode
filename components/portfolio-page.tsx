@@ -31,9 +31,9 @@ type ThemeMode = "light" | "dark";
 
 const featuredSlides = [
   {
-    src: "/projects/letsgo-poster.svg",
-    title: "Campaign Poster",
-    description: "Poster promosi utama dengan visual Jepang yang eye-catching."
+    src: "/projects/mockup-letsgo-id-card.png",
+    title: "ID Card LETS GO 2018",
+    description: "Desain ID Card panitia bernuansa clean dan modern."
   },
   {
     src: "/projects/letsgo-banner.svg",
